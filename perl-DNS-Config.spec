@@ -29,8 +29,15 @@ This class allows to represent this configuration data in a more or less
 generic way. Another class, the file adaptor, then knows how to write
 the information to a file in a daemon specific format.
 
-# %description -l pl
-# TODO
+%description -l pl
+Konfiguracja demona us³ugi nazw domen (DNS) zawiera informacje o
+strefach aktywnie dostarczanych u¿ytkownikom us³ugi, a tak¿e wiele
+innych danych konfiguracyjnych.
+
+Ta klasa umo¿liwia reprezentowanie danych konfiguracyjnych w bardziej
+lub mniej ogólny sposób. Inna klasa - adapter plików - ma informacje
+dotycz±ce sposobu zapisu tych informacji w plikach w sposób w³a¶ciwy
+dla danego demona.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
