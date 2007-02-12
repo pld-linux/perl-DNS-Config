@@ -6,7 +6,7 @@
 %define	pdir	DNS
 %define	pnam	Config
 Summary:	DNS::Config - DNS Configuration
-Summary(pl):	DNS::Config - konfiguracja DNS
+Summary(pl.UTF-8):   DNS::Config - konfiguracja DNS
 Name:		perl-DNS-Config
 Version:	0.66
 Release:	1
@@ -29,14 +29,14 @@ This class allows to represent this configuration data in a more or less
 generic way. Another class, the file adaptor, then knows how to write
 the information to a file in a daemon specific format.
 
-%description -l pl
-Konfiguracja demona us硊gi nazw domen (DNS) zawiera informacje o
-strefach aktywnie dostarczanych u縴tkownikom us硊gi, a tak縠 wiele
+%description -l pl.UTF-8
+Konfiguracja demona us艂ugi nazw domen (DNS) zawiera informacje o
+strefach aktywnie dostarczanych u偶ytkownikom us艂ugi, a tak偶e wiele
 innych danych konfiguracyjnych.
 
-Ta klasa umo縧iwia reprezentowanie danych konfiguracyjnych w bardziej
-lub mniej og髄ny spos骲. Inna klasa - adapter plik體 - ma informacje
-dotycz眂e sposobu zapisu tych informacji w plikach w spos骲 w砤禼iwy
+Ta klasa umo偶liwia reprezentowanie danych konfiguracyjnych w bardziej
+lub mniej og贸lny spos贸b. Inna klasa - adapter plik贸w - ma informacje
+dotycz膮ce sposobu zapisu tych informacji w plikach w spos贸b w艂a艣ciwy
 dla danego demona.
 
 %prep
