@@ -6,7 +6,7 @@
 %define	pdir	DNS
 %define	pnam	Config
 Summary:	DNS::Config - DNS Configuration
-Summary(pl.UTF-8):   DNS::Config - konfiguracja DNS
+Summary(pl.UTF-8):	DNS::Config - konfiguracja DNS
 Name:		perl-DNS-Config
 Version:	0.66
 Release:	1
