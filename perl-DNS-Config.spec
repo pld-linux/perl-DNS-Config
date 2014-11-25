@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	DNS
 %define	pnam	Config
+%include	/usr/lib/rpm/macros.perl
 Summary:	DNS::Config - DNS Configuration
 Summary(pl.UTF-8):	DNS::Config - konfiguracja DNS
 Name:		perl-DNS-Config
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	71309d67930fe356c860bbb96289c0d4
+URL:		http://search.cpan.org/dist/DNS-Config/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -25,9 +26,9 @@ A domain name service daemon configuration knows about the zone
 information actively provided to the service users as well as lots of
 other configuration data.
 
-This class allows to represent this configuration data in a more or less
-generic way. Another class, the file adaptor, then knows how to write
-the information to a file in a daemon specific format.
+This class allows to represent this configuration data in a more or
+less generic way. Another class, the file adaptor, then knows how to
+write the information to a file in a daemon specific format.
 
 %description -l pl.UTF-8
 Konfiguracja demona usługi nazw domen (DNS) zawiera informacje o
