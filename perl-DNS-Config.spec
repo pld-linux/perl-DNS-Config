@@ -4,7 +4,6 @@
 
 %define	pdir	DNS
 %define	pnam	Config
-%include	/usr/lib/rpm/macros.perl
 Summary:	DNS::Config - DNS Configuration
 Summary(pl.UTF-8):	DNS::Config - konfiguracja DNS
 Name:		perl-DNS-Config
